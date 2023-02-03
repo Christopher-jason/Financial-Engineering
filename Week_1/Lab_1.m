@@ -13,4 +13,6 @@ syms x
 
 year_2 = x * exp(rate_1 * 1) + oil_future_2* exp(-rate_2 * 2) == PV;
 
-X = linsolve(year_2);
+u = solve(year_2,x);
+
+disp(u)
