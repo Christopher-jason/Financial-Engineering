@@ -14,12 +14,12 @@ disp(delta);
 
 %% Question 5
 
-S0 = .80;
-k = .81;
-r_us = .08;
-r_jp = .05;
-sigma = .15;
-T = 7/12;
+S0 = .79;
+k = .84;
+r_us = .06;
+r_jp = .04;
+sigma = .12;
+T = 8/12;
 
 d1 = (log(S0/k)+(r_us - r_jp+(sigma^2/2))*T)/(sigma*sqrt(T));
 
